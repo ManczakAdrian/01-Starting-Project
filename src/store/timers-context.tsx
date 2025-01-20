@@ -4,7 +4,7 @@ import { createContext } from "react";
 import Timer from "../components/Timer";
 
 
-type Timer = {
+export type Timer = {
     name: string;
     duration: number;
 };
